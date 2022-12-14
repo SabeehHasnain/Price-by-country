@@ -1,0 +1,56 @@
+.price_by_country_data p.temp.form-field {
+  padding: 0 !important;
+  margin: 0;
+}
+.price_by_country_data .pbc_rule_sets select, .pbc_rule_sets input {
+  width: 100% !important;
+}
+.price_by_country_data span.pbc_add_rule_set, span.pbc_remove_rule_set {
+  font-size: 18px;
+  font-weight: 900;
+  border: 2px solid;
+  padding: 0px;
+  margin: 0px;
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.price_by_country_data span.pbc_remove_rule_set {
+  color: red;
+}
+.price_by_country_data span.pbc_add_rule_set {
+  color: green;
+}
+.price_by_country_data .pbc_flex{
+	display: flex;
+}
+.price_by_country_data table th {
+  text-align: left;
+  background: #ccc;
+  padding: 5px;
+}
+.price_by_country_data table td{
+	vertical-align: middle !important;
+}
+.price_by_country_data table input[type="number"]{
+	min-width: 80px !important;
+	width: 80px !important;
+}
+.price_by_country_data table  .select2-container--default .select2-selection--multiple .select2-selection__rendered{
+	max-width: 300px !important;
+}
+.price_by_country_data table tr td,.price_by_country_data table tr th {
+padding: 5px;
+}
+.price_by_country_data table{
+width: 100%;
+padding: 0 !important;
+margin: 0;
+border-spacing: 0;
+}
+.price_by_country_data  table tr:nth-child(odd) {
+  background: #f2fbff;
+}
